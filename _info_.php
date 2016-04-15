@@ -11,6 +11,8 @@ $mod_alias="BetterCap";
 
 # OPTIONS
 $mod_bc_dns_enabled="1";
+$mod_bc_gateway="1";
+$mod_bc_gateway_value="10.0.0.1";
 $mod_bc_target="0";
 $mod_bc_target_value="10.0.0.1-255";
 $mod_bc_no_discovery="1";

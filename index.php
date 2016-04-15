@@ -241,6 +241,14 @@ if ($logfile != "" and $action == "delete") {
             
             <br><br>
             
+            <input id="bc_gateway" type="checkbox" name="my-checkbox" <? if ($mod_bc_gateway == "1") echo "checked"; ?> onclick="setCheckbox(this, 'mod_bc_gateway')" >
+            --gateway
+            <br>
+            <input id="bc_gateway_value" class="form-control input-sm" placeholder="GATEWAY" value="<?=$mod_bc_gateway_value?>" style="width: 120px; display: inline-block; " type="text" />
+            <input class="btn btn-default btn-sm" type="button" value="save" onclick="setOption('bc_gateway_value', 'mod_bc_gateway_value')">
+            
+            <br><br>
+            
             <input id="bc_target" type="checkbox" name="my-checkbox" <? if ($mod_bc_target == "1") echo "checked"; ?> onclick="setCheckbox(this, 'mod_bc_target')" >
             --target
             <br>

@@ -48,6 +48,9 @@ if($service != "") {
         // OPTIONS
         $opt ="";
         
+        if ($mod_bc_gateway == "1") {
+            $opt .= " --gateway '$mod_bc_gateway_value' "; 
+        }
         if ($mod_bc_target == "1") {
             $opt .= " --target '$mod_bc_target_value' "; 
         }
