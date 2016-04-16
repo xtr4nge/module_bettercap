@@ -8,3 +8,10 @@
 <br>
 <br><b>Documentation</b>: https://www.bettercap.org/docs/intro.html
 <br><b>Install</b>: https://github.com/evilsocket/bettercap/blob/master/README.md
+<br>
+<br>
+<b>Bettercap Install (script)</b>:
+<font face="monospace">
+<br>cd /usr/share/fruitywifi/www/modules/bettercap/includes
+<br>chmod 755 install.sh
+<br>./install.sh
